@@ -1,0 +1,9 @@
+const original_Function = Function;
+    let hook_Function = new Proxy(Function, handler);
+    conceal_function(original_Function, hook_Function);
+    Function = hook_Function;
+    UI();
+    setGUI();
+    console.log("Injected KrunkerXD v1.8.9!");
+    alert('KrunkerXD\nCheats for Krunker.io v1.8.9\n\nThis cheat/hack was unpatched and improved by 200bots.ga. Please disable Ad-blocker for better gameplay!\n\nAlert: You may get banned! If you get banned, you have no rights to blame us!');
+})()
